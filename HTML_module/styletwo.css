@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+}
+
+header {
+    background-color: blueviolet;
+    height: 100px;
+
+}
+
+aside {
+    background-color: rgb(6, 255, 201);
+
+    width: 20%;
+    float: left;
+}
+
+section {
+    background-color: white;
+    width: 80%;
+    min-height: 520px;
+    float: right;
+}
+
+footer {
+    background-color: orange;
+
+    clear: both;
+
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* break point 800 */
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: black;
+    }
+
+    aside {
+        display: none;
+    }
+
+    section {
+
+        width: 100%;
+        /* float: right */
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+/* break point  */
