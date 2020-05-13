@@ -1,0 +1,28 @@
+p {
+    font-family: 'Gill sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aquamarine;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.red {
+    border : 5px solid blue;
+    height : 50px;
+    width : 75%;
+
+
+}
+div{
+    border: 1px solid black;
+    height:50px;
+    width:75%;
+}
+#bgyellow{
+    background-color: yellow;
+}
+.margin{
+    margin-bottom: 200px;
+    
+}
